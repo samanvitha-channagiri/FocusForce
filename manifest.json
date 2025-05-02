@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "BlockTheDistraction",
+    "description": "To help you stay focused, but blocking the distractive websites",
+    "version": "1.0",
+    "host_permissions": ["*://*/*"],
+    "permissions": ["storage"],
+    "icons":{
+        "1":"./icon.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
