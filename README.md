@@ -8,3 +8,6 @@ This is a chrome extension to help you block the websites that are distracting.
 -Click on "Load unpacked" and select the cloned repository.
 
 Now  you can use the extension by adding your distractive websites.
+
+
+![image](https://github.com/user-attachments/assets/52c7418d-855d-4e46-b6ea-ca88157ce7be)
